@@ -1,0 +1,75 @@
+/*{}*/
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #fff;
+  font-family: "Open Sans";
+}
+
+
+.title{
+  text-align: center;
+  padding: 50px;
+  font-size: 60px;
+  color: rgb(33, 223, 23);
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.item{
+  background-color: rgb(255, 230, 8);
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6a6464;
+  padding: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.alias{cursor: alias;}
+.all-scroll{cursor: all-scroll;}
+.auto{cursor: auto;}
+.cell{cursor: cell;}
+.context-menu{cursor: context-menu;}
+.col-resize{cursor: col-resize;}
+.copy{cursor: copy;}
+.crosshair{cursor: crosshair;}
+.default{cursor: default;}
+.e-resize{cursor: e-resize;}
+.ew-resize{cursor: ew-resize;}
+.grab{cursor: grab;}
+.grabbing{cursor: grabbing;}
+.help{cursor: help;}
+.move{cursor: move;}
+.n-resize{cursor: n-resize;}
+.ne-resize{cursor: ne-resize;}
+.nesw-resize{cursor: nesw-resize;}
+.ns-resize{cursor: ns-resize;}
+.nw-resize{cursor: nw-resize;}
+.nwse-resize{cursor: nwse-resize;}
+.no-drop{cursor: no-drop;}
+.none{cursor: none;}
+.not-allowed{cursor: not-allowed;}
+.pointer{cursor: pointer;}
+.progress{cursor: progress;}
+.row-resize{cursor: row-resize;}
+.s-resize{cursor: s-resize;}
+.se-resize{cursor: se-resize;}
+.sw-resize{cursor: sw-resize;}
+.text{cursor: text;}
+.w-resize{cursor: w-resize;}
+.wait{cursor: wait;}
+.zoom-in{cursor: zoom-in;}
+.zoom-out{cursor: zoom-out;}

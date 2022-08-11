@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(213, 181, 140);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Oleo Script Swash Caps', sans-serif;
+}
+
+.container{
+  background-color: #fff;
+  max-width: 425px;
+  padding: 32px;
+  width: 100%;
+  border-radius: 8px;
+  transition: .2s;
+}
+
+.container h2{
+  text-align: center;
+  margin-bottom: 32px;
+  font-size: 36px;
+}
+
+.rpgcont{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap:20px;
+}
+
+.rpgcont img{
+  width: 100%;
+  padding: 8px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  transition: 0.15s;
+}
+
+.rpgcont img:hover{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.rpgcont img:active, .rpgcont img:focus{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6) 
+}
+
+.container p{
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 20px;
+  padding: 12px 0;
+  font-size: 30px;
+  transition: 0.2s;
+}
+
+#score{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#score .sides{
+  background-color: #eee;
+  border-radius: 20px;
+  padding: 12px 20px;
+  font-size: 18px;
+  display: inline-block;
+}
+
+.win {
+  background: rgb(0, 255, 76);
+}
+.lose {
+  background: #ff4719;
+}
+.tie {
+  background: rgb(199, 199, 199);
+}

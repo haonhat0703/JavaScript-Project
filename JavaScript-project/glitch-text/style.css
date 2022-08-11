@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #000;
+  font-family: 'Russo One', sans-serif;
+}
+
+.text{
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 4rem;
+  color: #fff;
+  animation: glitch 0.5s linear infinite;
+}
+
+@keyframes glitch {
+  0%, 100%{
+    text-shadow: -1.5px -1.5px 0 #0ff, 1.5px 1.5px 0 #f00 ;
+  }
+  25%{
+    text-shadow: 1.5px 1.5px 0 #0ff, -1.5px -1.5px 0 #f00;
+  }
+  50%{
+    text-shadow: 1.5px -1.5px 0 #0ff, -1.5px 1.5px #f00;
+  }
+  75%{
+    text-shadow: 1.5px 1.5px 0 #0ff, 1.5px -1.5px 0 #f00;
+  }
+}
+
+@media (max-width: 600px) {
+  .text {
+      font-size: 2rem;
+  }
+}
+
+@media (max-width: 300px) {
+  .text {
+      font-size: 1.5rem;
+  }
+}
